@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-size: 1.2em;
+}
+header {
+    width: 98%;
+    background: lightgrey;
+    margin: 1%;
+    padding: 2% 1%;
+ }
+nav, section, aside {
+    margin: 1%;
+    float: left;
+}
+nav, aside {
+    width: 17%;
+}
+section {
+    width: 60%;
+}
+li {
+    list-style: none;
+    padding: 4% 2%;
+}
+nav ul li {
+    border-bottom: 1px solid lightgrey;
+    text-transform: capitalize;
+}
+aside ul li {
+    background: lightskyblue;
+}
+p, h2 {
+    padding: 3% 1%;
+}
+img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    img {
+        width: 100%;
+    }
+    nav, aside {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+}
