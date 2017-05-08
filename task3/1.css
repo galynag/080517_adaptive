@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrap {
+    width: 100%;
+    height:auto;
+}
+div.logo {
+    display: block;
+    width: 98%;
+    margin: 1% auto;
+    height: 218px;
+    background-image: url('images/logo.png');
+    background-position: top,center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    border-bottom: 1px solid black;
+}
+h1, h2, p {
+    width: 100%;
+    margin: 1%;
+    padding: 0 0 1% 0;
+}
+img.rasa {
+    width: 100%;
+    margin: 1%;
+}
+img.two-in-line {
+    width: 49%;
+}
+img.three-in-line {
+    width: 32%;
+}
+img.four-in-line {
+    width: 24%;
+}
+@media screen and (max-width: 640px){
+    img.four-in-line {
+        width: 49%;
+    }
+}
