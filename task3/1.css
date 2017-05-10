@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 #wrap {
-    width: 100%;
+    width: 90%;
     height:auto;
+    margin: auto;
 }
 div.logo {
     display: block;
-    width: 98%;
+    width: 100%;
     margin: 1% auto;
-    height: 218px;
+    height: 294px;
     background-image: url('images/logo.png');
-    background-position: top,center;
+    background-position: top, center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,23 +24,41 @@ h1 {
 h1, h2, p {
     width: 100%;
     margin: 1%;
-    padding: 0 0 1% 0;
-}
+ }
+p {
+    text-align: justify;
+    margin: auto;
+    padding: 1%;
+ }
 img.rasa {
     width: 100%;
-    margin: 1%;
+    padding: 1%;
 }
+
 img.two-in-line {
     width: 49%;
+    padding-left: 1%;
 }
+
 img.three-in-line {
     width: 32%;
+    padding-left: 1%;
 }
 img.four-in-line {
     width: 24%;
 }
+@media screen and (max-width: 900px){
+    div.logo {
+        height: 218px;
+    }
+}
 @media screen and (max-width: 640px){
     img.four-in-line {
         width: 49%;
+    }
+}
+@media screen and (max-width: 500px){
+    div.logo {
+        height: 150px;
     }
 }
